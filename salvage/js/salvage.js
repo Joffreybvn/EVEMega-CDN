@@ -1,3 +1,4 @@
+// Client side Javascript
 
 let startProcessSites = (event) => {
     event.preventDefault();
