@@ -13,7 +13,7 @@ socket.on('process_result', (data) => {
 });
 
 let siteForm = document.getElementById('siteForm');
-siteForm.addEventListener('submit', startProcessSites);
+siteForm.addEventListener('click', startProcessSites);
 
 let scanTextarea = document.getElementById('scan-textarea');
 let bookmarksTextarea = document.getElementById('bookmarks-textarea');
